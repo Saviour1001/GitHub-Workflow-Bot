@@ -1,5 +1,5 @@
 name: Issue_watcher
- 
+
 on:
   issues:
     types: [opened]
@@ -13,7 +13,7 @@ jobs:
       - name: Run Action
         uses: TesseractCoding/Issue_Watcher@main
         with:
-          token: '${{ secrets.GITHUB_TOKEN }}'
-          author: '${{github.actor}}'
-          repo: smv1999/CompetitiveProgrammingQuestionBank               #Change the Repo name 
+          token: "${{ secrets.GITHUB_TOKEN }}"
+          author: "${{github.actor}}"
+          repo: Saviour1001/GitHub-Workflow-Bot #Change the Repo name
           maxIssue: 2
